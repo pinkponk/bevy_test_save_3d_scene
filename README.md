@@ -1,6 +1,6 @@
 # bevy_test_save_3d_scene
 
-Save and load a scene with a 3D mesh. The Mesh and StandardMaterial used are stored using a static HandleId which makes loading the entities easy.
+Save and load a scene with a 3D mesh using a DynamicScene which is serialized into a .ron file. The Mesh and StandardMaterial used for the Cube are stored using a static HandleId which makes loading the entities easy.
 
 Key: A -> Add Cube
 
